@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CrystalsCollector</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <!-- custom css file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!--Game.js-->
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Crystals Collector</h1>
+
+        <div id="instructions-container" class="row">
+            <div class="col-xs-6 inst">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                    total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes
+                    above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="target-number-container" class="col-xs-4">
+                <h4>Target Number:</h4>
+                <div id="target-number">
+                    
+                </div>
+            </div>
+            <div id="current-score-container" class="col-xs-1">
+                    <h3>Your total score is:</h3>
+                    <p></p>
+                    <span id="current-score"></span>
+            </div>
+
+        </div>
+        <div id="game-crystals-container" class="row">
+            <div class="col-xs-5 crys">
+                <div id="crystal-1" class="col-xs-3 crystal">
+                    <button type="submit" style="border: 0; background: transparent; max-width: 100%;">
+                        <img src="assets/images/crystal-1.png" alt="Crystal 1" style="width: 100%">
+                    </button>
+                </div>
+                <div id="crystal-2" class="col-xs-3 crystal">
+                    <button type="submit" style="border: 0; background: transparent; max-width: 100%;">
+                        <img src="assets/images/crystal-2.png" alt="Crystal 2" style="width: 100%">
+                    </button>
+                </div>
+                <div id="crystal-3" class="col-xs-3 crystal">
+                    <button type="submit" style="border: 0; background: transparent; max-width: 100%;">
+                        <img src="assets/images/crystal-3.png" alt="Crystal 3" style="width: 100%">
+                    </button>
+                </div>
+                <div id="crystal-4" class="col-xs-3 crystal">
+                    <button type="submit" style="border: 0; background: transparent; max-width: 100%;">
+                        <img src="assets/images/crystal-4.png" alt="Crystal 4" style="width: 100%">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="default-panel" class="col-xs-3">
+            <div class="panel-body mark">
+                <u>Wins:</u>
+                <span id="winCounter">0</span>
+            </div>
+
+        </div>
+
+        <div id="default-panel" class="col-xs-3">
+            <div class="panel-body markloss">
+                <u>Losses:</u>
+                <span id="lossCounter">0</span>
+            </div>
+
+        </div>
+
+
+        
+
+        <div class="win-panel" class="row">
+            <div class="col-xs-4">
+                <div class="winAnnounce">
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

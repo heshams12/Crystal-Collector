@@ -1,0 +1,84 @@
+h1 {
+    font-size: 42px;
+    font-family: 'Alfa Slab One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.10909;
+    text-align: center;
+}
+
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.428571;
+    color: #333;
+    text-align: center;
+}
+
+.inst {
+    width: 50%;
+    left: 286px;
+}
+
+h3 {
+ 
+        font-size: 30px;
+        margin-left: 350px;
+        padding-left: 39px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+#current-score {
+    
+    margin-left: 434px;
+    font-size: 47px;
+    color: darkcyan;
+}
+
+.crys {
+    
+        width: 41.66666667%;
+        margin-left: 350px;
+    
+}
+
+.mark {
+    
+        padding: 15px;
+        margin-left: 383px;
+        font-size: 20px;
+        text-align: center;
+}
+
+.markloss {
+    padding: 15px;
+        margin-left: 383px;
+        font-size: 20px;
+        text-align: center;
+}
+
+.winAnnounce {
+    margin-top: 88px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+h4 {
+    font-size: 26px;
+    margin-left: 365px;
+}
+
+#target-number {
+    margin-left: 400px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+body {
+    background-image: url('../images/seamless-pattern-diamond-shape-cartoon-illustration-background-31282499.jpg');
+}
